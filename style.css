@@ -97,3 +97,19 @@ section
     object-fit: cover;
     opacity: 0.8;
 }
+
+.about
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .contentBx
+{
+    max-width: 50%;
+    width: 50%;
+    text-align: end;
+}
