@@ -109,7 +109,13 @@ section
 
 .about .contentBx
 {
-    max-width: 50%;
+    min-width: 50%;
     width: 50%;
     text-align: end;
+    padding-right: 40px;
+}
+
+.titleText
+{
+    
 }
