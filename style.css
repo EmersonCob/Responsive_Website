@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body
@@ -258,3 +259,48 @@ section
     opacity: 0.5;
 }
 
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .sci 
+{
+    position: relative;
+    display: flex;
+}
+
+.footer .sci li
+{
+    list-style: none;
+}
+
+.footer .sci li a
+{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.footer .sci li a img
+{
+    filter: invert(1);
+    max-width: 40px;
+}
+
+.copyrightText
+{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    text-align: center;
+}
+
+.copyrightText a
+{
+    color: #fff;
+    text-decoration: none;
+}
