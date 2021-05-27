@@ -149,7 +149,8 @@ section
     min-height: 500px;
 }
 
-.banner2
+.banner2,
+.banner3
 {
     position: relative;
     width: 100%;
@@ -159,7 +160,8 @@ section
     align-items: center;
 }
 
-.banner2:before
+.banner2:before,
+.banner3:before
 {
     content: '';
     position: absolute;
@@ -171,7 +173,8 @@ section
     background: linear-gradient(to top, #111, transparent);
 }
 
-.banner2:after
+.banner2:after,
+.banner3:after
 {
     content: '';
     position: absolute;
