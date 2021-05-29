@@ -304,3 +304,57 @@ section
     color: #fff;
     text-decoration: none;
 }
+
+
+@media (max-width: 767px)
+{
+    section
+    {
+        padding: 40px;
+    }
+    .banner .content h2
+    {
+        font-size: 2.5em;
+    }
+    .banner .content p
+    {
+        font-size: 1em;
+    }
+    .about 
+    {
+        flex-direction: column;
+    }
+    .about .contentBx,
+    .about .imgBx
+    {
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .about .imgBx
+    {
+        min-height: 250px;
+    }
+    .btn
+    {
+        margin-bottom: 30px;
+    }
+    .destination .destinationList .box
+    {
+        position: relative;
+        max-width: 350px;
+        min-width: initial;
+        width: 350px;
+        height: 400px;
+    }
+    .destination .destinationList .box .imgBx 
+    {
+        height: 320px;
+    }
+    .footer .sci li a img 
+    {
+        filter: invert(1);
+        max-width: 30px;
+    }
+}
