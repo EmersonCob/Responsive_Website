@@ -232,23 +232,26 @@ section
 {
     width: 100vw;
     display: flex;
-
 }
 
-.movie .boxmovie
+.boxmovie
+{
+    display: flex;
+}
+
+.item
+{
+    flex: none;
+}
+
+.vdBx
 {
     width: 100%;
+    height: 100%;
 }
 
-.movie .boxmovie .vdBx
+video
 {
-    align-items: center;
-}
-
-.movie .boxmovie .vdBx video
-{
-    align-items: center;
-    margin: 10px;
     height: 440px;
     width: 720px; 
 
