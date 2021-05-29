@@ -228,6 +228,32 @@ section
     opacity: 1;
 }
 
+.movie
+{
+    width: 100vw;
+    display: flex;
+
+}
+
+.movie .boxmovie
+{
+    width: 100%;
+}
+
+.movie .boxmovie .vdBx
+{
+    align-items: center;
+}
+
+.movie .boxmovie .vdBx video
+{
+    align-items: center;
+    margin: 10px;
+    height: 440px;
+    width: 720px; 
+
+}
+
 .destination .destinationList .box .imgBx
 {
     position: relative;
