@@ -230,13 +230,19 @@ section
 
 .movie
 {
-    width: 100vw;
-    display: flex;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .boxmovie
 {
-    display: flex;
+
+    display: grid;
 }
 
 .item
@@ -252,8 +258,9 @@ section
 
 video
 {
-    height: 440px;
-    width: 720px; 
+    height: 240px;
+    width: 520px; 
+    padding: 10px;
 
 }
 
